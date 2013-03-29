@@ -1,0 +1,30 @@
+Andrew Geyster
+Scorched Europa
+
+Assignment: To create a basic video game prototype within pygame by yourself.
+pygame and python copyright to their respective owners.
+
+Bugs:
+	When a bullet is in the air input must be given for the game to properly update, so just move the mouse around
+	Sound files are not playing correctly, at least on windows, all I hear from my audio device is a click when a sound file should be playing
+
+Things Missing:
+	Proper visual feed back, I would much like to have you be able to see a counter of time remaining in turn, current gun angle, and when implemented in future amount of force behind the shot
+	Since this is a prototype only one kind of weapon current exists
+	Sounds aren't properly operational
+	scrollable map to enlarge play field and allow more than one tank per person
+
+How To:
+	Run runGame.py
+	Shoot at each other until the other is destroyed
+	You are limited to 30 seconds per turn
+
+Controls:
+
+	Up Arrow tilts cannon up
+	Down Arrow tilts cannon down
+	Left Arrow moves tank to the left
+	Right Arrow moves tank to the right
+	T is a debug kill command
+	Return fires your cannon
+	
